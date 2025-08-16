@@ -169,9 +169,9 @@ html {
         background-color: #6BBEAC;
         position: absolute;
         top: 60px;
-        right: 0;
+        right: 0;        
         width: 200px;
-        padding: 10px 0;
+        padding: 10px 0 10px 15px;
         border-radius: 5px;
     }
     .nav-links.active {
@@ -202,5 +202,3 @@ html {
         font-size: 12px;
     }
 }
-
-
