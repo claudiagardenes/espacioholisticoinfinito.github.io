@@ -1,10 +1,10 @@
 /* General */
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     background-color: #f8f5f1;
     color: #333;
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='0.5' fill='%23E7CACC'/%3E%3C/svg%3E");
+    
     background-repeat: repeat;
 }
 
@@ -14,8 +14,8 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #6BBEAC;
-    padding: 10px 20px;
+    background-color: #ffffff;
+    padding: 15px 30px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -26,12 +26,12 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    color: white;
-    font-weight: 700;
+    color:rgb(128,128,128);
+    font-weight: 900;
 }
 
 .logo img {
-    height: 40px;
+    height: 100px;
     margin-right: 10px;
 }
 
@@ -43,9 +43,9 @@ body {
 }
 
 .nav-links a {
-    color: white;
+    color: rgb(128,128,128);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.2s ease;
 }
 
@@ -63,20 +63,30 @@ body {
 .nav-toggle span {
     height: 3px;
     width: 25px;
-    background: white;
+    background: rgb(128, 128, 128);
     margin: 4px 0;
     border-radius: 2px;
 }
 
 /* Secciones */
+main{
+    padding: 300px  ;
+    text-align: left;
+    background-image: url("multimedia/butterflies-8048191_1280.jpg");
+}
+main h1{
+    text-align: left;
+}
 section {
-    padding: 100px 20px;
+    padding: 100px 30px 20px 20px ;
     text-align: center;
 }
 
 section h1, section h2 {
-    color: #6BBEAC;
-    margin-bottom: 15px;
+    color: rgb(128, 128, 128);
+    padding-top: 20px;
+    
+    
 }
 
 /* Tarjetas */
